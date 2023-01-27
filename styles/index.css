@@ -1,0 +1,24 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pokemon {
+  width: 18em;
+  margin-bottom: 2em;
+}
+
+#pokemons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2em;
+}
+
+.form {
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+}
